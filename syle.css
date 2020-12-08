@@ -1,0 +1,60 @@
+#alo{
+    width: 500px;
+    height: 500px;
+}
+
+/* Plateau */
+.case{
+    position: relative;
+    width: 12.5%;
+    padding-bottom: 12.5%;
+}
+.cBlanc{
+    background-color: #f9e7cf;
+    color: #3a1c09;
+}
+.cNoir{
+    background-color: #3a1c09;
+    color: #f9e7cf;
+}
+.plateau{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid  #3a1c09;
+}
+.ligne{
+    width: 100%;
+    height: 12.5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Numérotation case ligne/colone*/
+.indicLigne{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.indicCol{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
+
+/* Pieces echec */
+.zonePieces{
+    display: flex;
+    align-items: baseline;
+    width: 100.2%;
+    height: 25%;
+    background-color: red;
+}
+.pieceImg{
+    width: 100%;
+    height: auto;
+}
+.contPiece{
+    width: 6%;
+}
